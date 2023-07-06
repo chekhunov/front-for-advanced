@@ -1,0 +1,25 @@
+{
+  "tabWidth": 2,
+  "useTabs": true,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@/app/components/(.*)$",
+    "^@/app/screens/(.*)$",
+    "^@/app/ui/(.*)$",
+    "^@/app/hooks/(.*)$",
+    "^@/app/shared/(.*)$",
+    "^@/app/services/(.*)$",
+    "^@/app/assets/(.*)$",
+    "^@/app/utils/(.*)$",
+    "^@/app/config/(.*)$",
+    "^@/app/store/(.*)$",
+    "^../(.*)",
+    "^./(.*)",
+    "(.scss)"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
