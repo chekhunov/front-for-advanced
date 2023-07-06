@@ -1,30 +1,32 @@
 {
-  "name": "front-for-advanced",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "20.4.0",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.6",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.8",
-    "next": "13.4.8",
-    "postcss": "8.4.24",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.63.6",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.1.6"
-  },
-  "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
-    "prettier": "^3.0.0"
-  }
+	"name": "front-for-advanced",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3100",
+		"build": "next build",
+		"start": "next start -p 5000",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.4.2",
+		"@tailwindcss/forms": "^0.5.3",
+		"@types/node": "20.4.0",
+		"@types/react": "18.2.14",
+		"@types/react-dom": "18.2.6",
+		"next": "13.4.8",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"sass": "^1.63.6"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.1.1",
+		"autoprefixer": "10.4.14",
+		"eslint": "8.44.0",
+		"eslint-config-next": "13.4.8",
+		"postcss": "^8.4.25",
+		"tailwindcss": "^3.3.2",
+		"typescript": "5.1.6",
+		"prettier": "^3.0.0"
+	}
 }
