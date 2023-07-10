@@ -1,7 +1,16 @@
-import styles from './Navigation.module.scss'
+import { FC } from 'react'
+import Logo from './Logo'
 
-const Navigation = () => {
-	return <div>Navigation</div>
+import styles from './Navigation.module.scss'
+import MenuContainer from './components/MenuContainer'
+
+const Navigation: FC = (): JSX.Element => {
+	return (
+		<div className={styles.navigation}>
+      <Logo />
+      <MenuContainer />
+		</div>
+	)
 }
 
 export default Navigation
