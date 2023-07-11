@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import Logo from './Logo'
+import Logo from './components/Logo'
 
 import styles from './Navigation.module.scss'
 import MenuContainer from './components/MenuContainer'

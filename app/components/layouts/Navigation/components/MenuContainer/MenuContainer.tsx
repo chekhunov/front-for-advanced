@@ -1,11 +1,12 @@
 import Menu from './Menu'
 import { firstMenu, userMenu } from './Menu.data'
+import GenresMenu from './genres/GenresMenu'
 
 const MenuContainer = () => {
 	return (
 		<>
 			<Menu menu={firstMenu} />
-			{/* TODO Add Genres Menu */}
+			<GenresMenu />
 			<Menu menu={userMenu} />
 		</>
 	)
