@@ -1,5 +1,6 @@
 import { FC, ReactNode } from 'react'
 import { QueryClient, QueryClientProvider } from 'react-query'
+import Layout from '../components/layouts/Layout'
 
 interface MainProviderProps {
 	children: ReactNode
@@ -15,7 +16,9 @@ const queryClient = new QueryClient({
 
 const MainProvider: FC<MainProviderProps> = ({ children }): JSX.Element => {
 	return (
-		<QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+		<QueryClientProvider client={queryClient}>
+			<Layout>{children}</Layout>
+		</QueryClientProvider>
 	)
 }
 export default MainProvider
