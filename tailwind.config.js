@@ -83,7 +83,7 @@ module.exports = {
 	plugins: [
 		plugin(({ addComponents, theme, addUtilities }) => {
 			addComponents({
-				'btn-primary': {
+				'.btn-primary': {
 					backgroundColor: primary,
 					color: '#fff',
 					borderRadius: '0.65rem',

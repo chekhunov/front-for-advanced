@@ -8,7 +8,7 @@ const Layout: FC<LayoutProps> = ({ children }): JSX.Element => {
 	return (
 		<div className={styles.layout}>
 			<Navigation />
-			<div>{children}</div>
+			<div className={styles.center}>{children}</div>
 			<Sidebar />
 		</div>
 	)
