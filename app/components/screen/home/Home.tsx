@@ -14,7 +14,7 @@ const Home: FC<HomeProps> = (): JSX.Element => {
 				title="Watch movies online"
 				className="text-gray-300 mb-8 text-xl"
 			></Heading>
-		</Meta>
+    </Meta>
 	)
 }
 
